@@ -1,0 +1,9 @@
+body{
+  background:linear-gradient(118.47deg, #E9EDF0 0.61%, #E9EDF0 100%) !important;
+
+  font-family: 'Lato', sans-serif;
+}
+
+
+button:focus { outline: none; }
+input:focus { outline: none; }
