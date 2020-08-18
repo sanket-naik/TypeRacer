@@ -1,6 +1,6 @@
 .LobbyPlayers{
     text-align: center;
-    width: 150px;
+    width: fit-content;
     padding: 15px 0px;
     border-radius: 8px;
     color: #696969;
@@ -10,4 +10,21 @@
 .CountLobby{
     font-size: 14px;
     font-weight: 700;
+}
+
+.inLine{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin: auto 5px auto 0px;
+}
+
+.lonefr{
+    margin: auto 0px;
+}
+
+.lineFex{
+    display: flex;
+    padding: 5px 20px;
 }

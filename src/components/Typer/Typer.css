@@ -3,3 +3,21 @@
     margin: 0 auto;
     margin-bottom: 20px;
 }
+
+.MainTyperBlock{
+    border-radius: 10px;
+    width: 500px;
+    margin: 5vh auto;
+    height: fit-content;
+}
+
+.ededede{
+    padding: 10vh 0px;
+}
+
+.typeAbove{
+    text-align: center;
+    color: #696969;
+    font-size: 14px;
+    margin: 90px auto 10px auto;
+}

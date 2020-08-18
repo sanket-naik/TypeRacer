@@ -8,6 +8,11 @@
     /* border: 1px solid red; */
 }
 
+.FlexStartItem3{
+    width: 49%;
+    /* border: 1px solid red; */
+}
+
 .FlexStartItem2{
     width: 2%;
 }
@@ -19,9 +24,16 @@
     margin: 30px auto;
 }
 
+.HRLineStart{
+    width: 10px;
+    border-radius: 40px;
+    height: 100%;
+    margin: 0px auto;
+}
+
 .SecondSytartFlec{
-    margin-left: 20vh;
-    margin-top: 20vh;
+    margin-left: 10vh;
+    margin-top: 15vh;
 }
 
 .PleaseWaitStart{
@@ -47,6 +59,11 @@
 
     .FlexStartItem2{
         display: none;
+    }
+
+    .FlexStartItem3{
+        width: 90%;
+        margin: auto;
     }
 
     .FlexStartItem1{

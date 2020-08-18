@@ -1,0 +1,12 @@
+.WordInputBox{
+    border: none;
+    height: 40px;
+    width: fit-content;
+    background-color: transparent;
+    color:#686868;
+    border-radius: 8px;
+}
+
+.DisalowtoType{
+    cursor: not-allowed;
+}

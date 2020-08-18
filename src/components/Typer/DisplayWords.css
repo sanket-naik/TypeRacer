@@ -1,0 +1,17 @@
+.WordsTypedBlock{
+    width: 80%;
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #696969;
+}
+
+.typdalrdy{
+    background-color: rgba(73, 235, 16, 0.4);;
+    border-radius: 4px;
+}
+
+.paddeds{
+    line-height: 1.6;
+    padding: 2px 2px;
+}

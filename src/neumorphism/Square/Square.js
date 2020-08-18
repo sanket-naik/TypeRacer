@@ -3,7 +3,7 @@ import './Square.css'
 
 export default function Square(props) {
     return (
-        <div className={"out AquareBlock "+props.className}>
+        <div className={`${props.shadow || 'out'} AquareBlock ${props.className}`} style={{...props.style}}>
             {props.children}
         </div>
     )

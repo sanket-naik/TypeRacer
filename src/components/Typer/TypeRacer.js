@@ -22,12 +22,30 @@ function TypeRacer({gameState}) {
 
     return (
         <div>
-            <DisplayWords words={words} player={player}/>
-            <ProgressBar players={players} player={player} wordsLength={words.length}/>
-            <Form isOpen={isOpen} isOver={isOver} gameID={_id} />
-            <CountDown/>
+            <CountDown pattern={1}/>
+            { !isOpen &&
+            <>
+            <div className="MainFlexSTartBtn">
+                <div className="FlexStartItem1">
+                    <CountDown pattern={2}/>
+                    <div className="out MainTyperBlock">
+                        <div className="ededede">
+                            <DisplayWords words={words} player={player}/>
+                            <div className="typeAbove">Type the above words</div>
+                            <Form isOpen={isOpen} isOver={isOver} gameID={_id} />
+                        </div>
+                    </div>
+                </div>
+                <div className="FlexStartItem2">
+                    <div className="in HRLineStart"></div>
+                </div>
+                <div className="FlexStartItem3">
+                     <ProgressBar players={players} player={player} wordsLength={words.length}/>
+                </div>
+            </div>
+            </>}
             <StartBtn player={player} gameID={_id} players={players}/>
-            <ScoreBoard players={players}/>
+            {/* <ScoreBoard players={players}/> */}
         </div>
     )
 }

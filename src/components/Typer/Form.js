@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import socket from '../../sockeConfig'
 import { useEffect } from 'react'
+import './Form.css'
 
 export default function Form({isOpen, isOver, gameID }) {
 
@@ -28,9 +29,9 @@ export default function Form({isOpen, isOver, gameID }) {
 
     return (
         <div>
-             <form >
+             <form style={{textAlign:'center'}}>
                  {console.log(isOpen, isOver)}
-                <input type="text" readOnly={isOpen || isOver} ref={textInput} onChange={HandleChange} value={userInput} />
+                <input style={{textAlign:'center'}} className={`WordInputBox in ${(isOpen || isOver) && "DisalowtoType"}`} type="text" disabled={isOpen || isOver} ref={textInput} onChange={HandleChange} value={userInput} />
              </form>
         </div>
     )

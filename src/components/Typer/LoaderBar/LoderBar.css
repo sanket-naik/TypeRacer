@@ -1,0 +1,54 @@
+
+
+
+/* loader bar */
+.loaderContnr{
+    display: flex;
+
+    margin: 30px 30px;
+}
+
+
+.FirdtLoao{
+    border-radius: 20px;
+    margin-right: 20px;
+    display: flex;
+    /* padding: 7px 20px; */
+}
+
+.loadepEr{
+    background: linear-gradient(108.3deg, #70E8BD 23.49%, #66DBB1 76.7%);
+    box-shadow: inset 5px -4px 10px #53D2BB;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #fff;
+    margin: 3px;
+    /* padding: 4px; */
+}
+
+.NameLaoder{
+    margin: auto;
+    /* border: 1px solid red; */
+    padding-right: 5px;
+    width: 60px;
+    padding-bottom: 4px;
+    text-align: left;
+    color: #696969;
+    font-size: 16px;
+}
+
+.Loadeingindcte{
+    border-radius: 20px;
+    width: 600px;
+    color: #696969;
+    /* padding-top: 6px; */
+}
+.Howcmchnalk{
+    background: linear-gradient(108.3deg, #70E8BD 23.49%, #66DBB1 76.7%);
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: inset 5px -4px 10px #53D2BB;
+    transition: width 1s;
+}

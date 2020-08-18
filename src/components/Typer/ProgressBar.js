@@ -1,4 +1,5 @@
 import React from 'react'
+import LoaderBar from './LoaderBar/LoaderBar';
 
 const calculatePercentage=(player, wordsLength)=>{
     if(player.currentWordIndex !==0){
@@ -12,26 +13,18 @@ export default function ProgressBar({players, player, wordsLength}) {
     const percentage= calculatePercentage(player, wordsLength);
     return (
         <>
-        <div>
-            <h5>
-                {player.nickName}
-            </h5>
-            <div>
-                {percentage}
-            </div>
-        </div>
+        <LoaderBar
+            percentage={percentage}
+            name={player.nickName}
+        />
         {
             players.map(playerobj=>{
                 const percentage= calculatePercentage(playerobj, wordsLength);
                 return playerobj._id!==player._id &&
-                <div>
-                    <h5>
-                        {playerobj.nickName}
-                    </h5>
-                    <div>
-                        {percentage}
-                    </div>
-                </div>
+                <LoaderBar
+                        percentage={percentage}
+                        name={playerobj.nickName}
+                    />
 
             })
         }
