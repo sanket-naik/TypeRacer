@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/TypeRacer-Socket-client-ReactJs/static/css/main.297d6481.chunk.css",
-    "main.js": "/TypeRacer-Socket-client-ReactJs/static/js/main.6726addd.chunk.js",
-    "main.js.map": "/TypeRacer-Socket-client-ReactJs/static/js/main.6726addd.chunk.js.map",
-    "runtime-main.js": "/TypeRacer-Socket-client-ReactJs/static/js/runtime-main.45ff35fc.js",
-    "runtime-main.js.map": "/TypeRacer-Socket-client-ReactJs/static/js/runtime-main.45ff35fc.js.map",
-    "static/js/2.13233cf0.chunk.js": "/TypeRacer-Socket-client-ReactJs/static/js/2.13233cf0.chunk.js",
-    "static/js/2.13233cf0.chunk.js.map": "/TypeRacer-Socket-client-ReactJs/static/js/2.13233cf0.chunk.js.map",
-    "index.html": "/TypeRacer-Socket-client-ReactJs/index.html",
-    "precache-manifest.8223b7c1778142e82379a6cc917bc424.js": "/TypeRacer-Socket-client-ReactJs/precache-manifest.8223b7c1778142e82379a6cc917bc424.js",
-    "service-worker.js": "/TypeRacer-Socket-client-ReactJs/service-worker.js",
-    "static/css/main.297d6481.chunk.css.map": "/TypeRacer-Socket-client-ReactJs/static/css/main.297d6481.chunk.css.map",
-    "static/js/2.13233cf0.chunk.js.LICENSE.txt": "/TypeRacer-Socket-client-ReactJs/static/js/2.13233cf0.chunk.js.LICENSE.txt"
+    "main.css": "/TypeRacer/static/css/main.297d6481.chunk.css",
+    "main.js": "/TypeRacer/static/js/main.6726addd.chunk.js",
+    "main.js.map": "/TypeRacer/static/js/main.6726addd.chunk.js.map",
+    "runtime-main.js": "/TypeRacer/static/js/runtime-main.8d2e15b6.js",
+    "runtime-main.js.map": "/TypeRacer/static/js/runtime-main.8d2e15b6.js.map",
+    "static/js/2.576855f3.chunk.js": "/TypeRacer/static/js/2.576855f3.chunk.js",
+    "static/js/2.576855f3.chunk.js.map": "/TypeRacer/static/js/2.576855f3.chunk.js.map",
+    "index.html": "/TypeRacer/index.html",
+    "precache-manifest.8a742e59f3942aa164cea576058e2ace.js": "/TypeRacer/precache-manifest.8a742e59f3942aa164cea576058e2ace.js",
+    "service-worker.js": "/TypeRacer/service-worker.js",
+    "static/css/main.297d6481.chunk.css.map": "/TypeRacer/static/css/main.297d6481.chunk.css.map",
+    "static/js/2.576855f3.chunk.js.LICENSE.txt": "/TypeRacer/static/js/2.576855f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.45ff35fc.js",
-    "static/js/2.13233cf0.chunk.js",
+    "static/js/runtime-main.8d2e15b6.js",
+    "static/js/2.576855f3.chunk.js",
     "static/css/main.297d6481.chunk.css",
     "static/js/main.6726addd.chunk.js"
   ]
