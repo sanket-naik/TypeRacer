@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/TypeRacer-Socket-client-ReactJs/static/css/main.297d6481.chunk.css",
-    "main.js": "/TypeRacer-Socket-client-ReactJs/static/js/main.27729dd1.chunk.js",
-    "main.js.map": "/TypeRacer-Socket-client-ReactJs/static/js/main.27729dd1.chunk.js.map",
+    "main.js": "/TypeRacer-Socket-client-ReactJs/static/js/main.6726addd.chunk.js",
+    "main.js.map": "/TypeRacer-Socket-client-ReactJs/static/js/main.6726addd.chunk.js.map",
     "runtime-main.js": "/TypeRacer-Socket-client-ReactJs/static/js/runtime-main.45ff35fc.js",
     "runtime-main.js.map": "/TypeRacer-Socket-client-ReactJs/static/js/runtime-main.45ff35fc.js.map",
-    "static/js/2.bf90cca1.chunk.js": "/TypeRacer-Socket-client-ReactJs/static/js/2.bf90cca1.chunk.js",
-    "static/js/2.bf90cca1.chunk.js.map": "/TypeRacer-Socket-client-ReactJs/static/js/2.bf90cca1.chunk.js.map",
+    "static/js/2.13233cf0.chunk.js": "/TypeRacer-Socket-client-ReactJs/static/js/2.13233cf0.chunk.js",
+    "static/js/2.13233cf0.chunk.js.map": "/TypeRacer-Socket-client-ReactJs/static/js/2.13233cf0.chunk.js.map",
     "index.html": "/TypeRacer-Socket-client-ReactJs/index.html",
-    "precache-manifest.b8d8381b4e2dbc899e78a5ce8b2eb221.js": "/TypeRacer-Socket-client-ReactJs/precache-manifest.b8d8381b4e2dbc899e78a5ce8b2eb221.js",
+    "precache-manifest.8223b7c1778142e82379a6cc917bc424.js": "/TypeRacer-Socket-client-ReactJs/precache-manifest.8223b7c1778142e82379a6cc917bc424.js",
     "service-worker.js": "/TypeRacer-Socket-client-ReactJs/service-worker.js",
     "static/css/main.297d6481.chunk.css.map": "/TypeRacer-Socket-client-ReactJs/static/css/main.297d6481.chunk.css.map",
-    "static/js/2.bf90cca1.chunk.js.LICENSE.txt": "/TypeRacer-Socket-client-ReactJs/static/js/2.bf90cca1.chunk.js.LICENSE.txt"
+    "static/js/2.13233cf0.chunk.js.LICENSE.txt": "/TypeRacer-Socket-client-ReactJs/static/js/2.13233cf0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.45ff35fc.js",
-    "static/js/2.bf90cca1.chunk.js",
+    "static/js/2.13233cf0.chunk.js",
     "static/css/main.297d6481.chunk.css",
-    "static/js/main.27729dd1.chunk.js"
+    "static/js/main.6726addd.chunk.js"
   ]
 }

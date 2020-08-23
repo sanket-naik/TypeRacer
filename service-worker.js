@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TypeRacer-Socket-client-ReactJs/precache-manifest.b8d8381b4e2dbc899e78a5ce8b2eb221.js"
+  "/TypeRacer-Socket-client-ReactJs/precache-manifest.8223b7c1778142e82379a6cc917bc424.js"
 );
 
 self.addEventListener('message', (event) => {
