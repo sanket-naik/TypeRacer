@@ -8,7 +8,9 @@ function GameMenu(props) {
     return (
         <div className="GameMenu">
            <div className="ManuDiv">
-            <div className="Headings HeadMain" style={{marginBottom:'70px'}}>Welcome to Game</div>
+            <div className="Headings HeadMain" style={{marginBottom:'70px'}}>
+                <img height="150px" style={{borderRadius:"15px"}} src="https://res.cloudinary.com/dlmozkbdc/image/upload/v1598109581/Socket/method-draw-image_8_w1twnd.svg"/>
+            </div>
             <div className="InnerBrnMain">
                 <Button className="ManuflexItem" onClick={()=>props.history.push("/typer/create")}>Create Game</Button>
                 <Button className="ManuflexItem" onClick={()=>props.history.push("/typer/join")}>Join Game</Button>

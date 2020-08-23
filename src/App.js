@@ -6,6 +6,7 @@ import { withRouter } from 'react-router-dom';
 import './neumorphism/styles.css'
 import StartBtn from './components/Typer/StartBtn';
 import CountDown from './components/Typer/CountDown';
+import ScoreBoard from './components/Typer/ScoreBoard';
 
 function App(props) {
 
@@ -34,7 +35,7 @@ function App(props) {
   return (
     <div className="App">
       <RouterSocket {...props} gameState={gameState}/>
-      {/* <CountDown/> */}
+      {/* <ScoreBoard/> */}
     </div>
   );
 }

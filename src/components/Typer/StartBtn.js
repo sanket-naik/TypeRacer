@@ -31,15 +31,15 @@ function StartBtn({player, gameID, players}) {
      }, [])
 
     return (
-    (showBtn) ? 
+    (showBtn) &&
         <div className="MainFlexSTartBtn">
-            <div className="FlexStartItem1">
+            <div className="FlexStartItem1start">
                 <HowItWorks className="HowPadding"/>
             </div>
-            <div className="FlexStartItem2">
+            <div className="FlexStartItem2start">
                 <div className="in HRLine"></div>
             </div>
-            <div className="FlexStartItem3">
+            <div className="FlexStartItem3start">
                 <div className="SecondSytartFlec">
                     <InviteCode code={InviteId}/>
                     <div style={{marginTop:'30px'}}>
@@ -64,15 +64,7 @@ function StartBtn({player, gameID, players}) {
                     }
                 </div>
             </div>
-        </div>
-        :
-        <div className="MainFlexSTartBtn">
-           {/* <Square className="PleaseWaitStart">
-            <span>Please wait <b>admin</b> should start the game...</span>
-           </Square> */}
-        </div>
-    
-                                    
+        </div>                       
     )
 }
 

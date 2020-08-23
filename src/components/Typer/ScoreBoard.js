@@ -1,30 +1,39 @@
 import React from 'react'
+import './ScoreBoard.css'
 
-const getScoreBoard =(players)=>{
-    const scoreBoard= players.filter(player=>player.WPM !==-1);
-    return scoreBoard.sort((a,b)=>a.WPM > b.WPM ? -1 : b.WPM > a.WPM ? 1 : 0)
-}
 
-export default function ScoreBoard({players}) {
-    const scoreBoard= getScoreBoard(players)
-    if(scoreBoard.length===0){
-        return null
-    }else{
+export default function ScoreBoard({scoreBoard}) {
         return (
-            <>
-            <div style={{display:'flex'}}>
-                <div>#</div>
-                <div>name</div>
-                <div>wpm</div>
+            <div className="FlexWinnerrs">
+                <div style={{textAlign:"center"}}>
+                    <img className="SueWinner" src="https://res.cloudinary.com/dlmozkbdc/image/upload/v1598153333/Socket/source_q8ozu3.gif"/>
+                </div>
+                <div style={{width:"fit-content"}}>
+                    <div className="Headings HeadMain" style={{marginBottom:'70px', marginTop:'50px'}}>
+                        <img height="160px" style={{borderRadius:"15px"}} src="https://res.cloudinary.com/dlmozkbdc/image/upload/v1598110619/Socket/undraw_awards_fieb_ltxxwo.svg"/>
+                    </div>
+                    <div>
+                    <div className="ScoreTable out" style={{marginTop:'50px'}}>
+                        <table className="TableScolr">
+                            <tr>
+                                <th>Rank</th>
+                                <th>Name</th>
+                                <th>WPM</th>
+                            </tr>
+                             {scoreBoard.map((player, index)=>(
+                                <tr>
+                                    <td>{index+1}</td>
+                                    <td>{player.nickName}</td>
+                                    <td>{player.WPM}</td>
+                                </tr>
+                            ))}
+                        </table>
+                    </div>
+                  </div>
+                </div>
+                <div style={{textAlign:"center"}}>
+                    <img className="SueWinner" src="https://res.cloudinary.com/dlmozkbdc/image/upload/v1598153333/Socket/source_q8ozu3.gif"/>
+                </div>
             </div>
-            {scoreBoard.map((player, index)=>(
-                <div style={{display:'flex'}}>
-                <div>{index+1}</div>
-                <div>{player.nickName}</div>
-                <div>{player.WPM}</div>
-            </div>
-            ))}
-            </>
         )
-    }
 }

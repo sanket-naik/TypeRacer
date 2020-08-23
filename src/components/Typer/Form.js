@@ -28,11 +28,8 @@ export default function Form({isOpen, isOver, gameID }) {
     }
 
     return (
-        <div>
-             <form style={{textAlign:'center'}}>
-                 {console.log(isOpen, isOver)}
-                <input style={{textAlign:'center'}} className={`WordInputBox in ${(isOpen || isOver) && "DisalowtoType"}`} type="text" disabled={isOpen || isOver} ref={textInput} onChange={HandleChange} value={userInput} />
-             </form>
+        <div style={{textAlign:'center'}}>
+            <input style={{textAlign:'center'}} className={`WordInputBox in ${(isOpen || isOver) && "DisalowtoType"}`} type="text" disabled={isOpen || isOver} ref={textInput} onChange={HandleChange} value={userInput} />
         </div>
     )
 }

@@ -18,32 +18,12 @@ export default function JoinTyper() {
     }
 
     return (
-        // <div>
-        //     <h2>Enter Game</h2>
-        //     <form onSubmit={onSubmit}>
-        //         <div>
-        //             <input 
-        //                 type="text" 
-        //                 name="gameID"
-        //                 placeholder="Enter game ID" 
-        //                 value={userInput.gameID} 
-        //                 onChange={handleChange}/>
-        //         </div>
-        //         <div>
-        //             <input 
-        //                 type="text" 
-        //                 name="nickName"
-        //                 placeholder="Enter name" 
-        //                 value={userInput.nickName} 
-        //                 onChange={handleChange}/>
-        //         </div>
-        //         <button type="submit">Submit</button>
-        //     </form>
-        // </div>
         
         <div>
             <div className="GameMenu ManuDiv">
-            <div className="Headings HeadMain" style={{marginBottom:'50px'}}>Enter Game</div>
+            <div className="Headings HeadMain" style={{marginBottom:'50px'}}>
+              <img height="150px" src="https://res.cloudinary.com/dlmozkbdc/image/upload/v1598106800/Socket/method-draw-image_3_zqcrea.svg"/>
+            </div>
             <div className="">
                 <form onSubmit={onSubmit}>
                     <div>

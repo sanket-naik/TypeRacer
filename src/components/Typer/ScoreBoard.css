@@ -1,0 +1,32 @@
+
+.TableScolr {
+    border-collapse: collapse;
+    width: 400px;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+
+  th{
+    border-bottom: 1px solid #696969;
+  }
+
+.ScoreTable{
+    color: #3f3d56;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.FlexWinnerrs{
+    display: flex;
+}
+
+
+.SueWinner{
+    width: 70%;
+    margin: 50px auto;
+}

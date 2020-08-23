@@ -20,7 +20,10 @@ export default function CreateTyper() {
     return (
         <div>
             <div className="GameMenu ManuDiv">
-            <div className="Headings HeadMain" style={{marginBottom:'50px'}}>Create Game</div>
+            <div className="Headings HeadMain" style={{marginBottom:'50px'}}>
+            <img height="150px" src="https://res.cloudinary.com/dlmozkbdc/image/upload/v1598109026/Socket/method-draw-image_7_hotoo2.svg"/>
+            
+            </div>
             <div className="">
                 <form onSubmit={onSubmit}>
                     <div>
